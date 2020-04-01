@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <!-- 初始化echarts需要个有宽高的盒子 -->
-    <div ref='mapbox' style="height:400px;width:600px"></div>
+    <div ref='mapbox' style="height:600px;width:900px"></div>
   </div>
 </template>
 
@@ -13,10 +13,8 @@ import jsonp from 'jsonp'
 // 使用地图前,需要先注册地图
 const option = {
   title: {
-    text: '珠峰培训',
+    text: '2020年中国疫情地图',
     link: 'https://www.baidu.com',
-    subtext: '十年专注',
-    sublink: 'https://www.baidu.com',
   },
   series: [{
     name: '确诊人数',
@@ -114,18 +112,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+.hello{
+  display: flex;
+  justify-content: center;
 }
 </style>

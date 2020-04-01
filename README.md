@@ -1,4 +1,4 @@
-# mymap
+# EpidemicMap
 
 ## Project setup
 ```
@@ -15,10 +15,5 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Epidemic map of China in 2020
+![image](https://github.com/Aiyangyanglog/EpidemicMap/tree/master/src/assets/map.png)
