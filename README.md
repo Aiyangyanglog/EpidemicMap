@@ -16,4 +16,4 @@ npm run build
 ```
 
 ### Epidemic map of China in 2020
-![image](https://github.com/Aiyangyanglog/EpidemicMap/tree/master/src/assets/map.png)
+![avatar](https://raw.githubusercontent.com/Aiyangyanglog/EpidemicMap/master/src/assets/map.png)
